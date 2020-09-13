@@ -1,0 +1,22 @@
+{
+  "name": "haproxy-load-balancing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jia0nnn-n/haproxy-load-balancing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jia0nnn-n/haproxy-load-balancing/issues"
+  },
+  "homepage": "https://github.com/jia0nnn-n/haproxy-load-balancing#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
