@@ -9,6 +9,7 @@ const PORT = process.env.PORT
 
 ## Transport Layer LB
 
+![](/tcp.gif)
 Do two server:
 ```bash
 PORT=1234 node app.js
@@ -26,6 +27,8 @@ curl localhost
 ```
 
 ## Application Layer LB
+
+![](/http.gif)
 
 Build two servers for each service.
 ```bash
@@ -46,3 +49,5 @@ haproxy -f http.cfg
 curl localhost:9999/first-service 
 curl localhost:9999/second-service 
 ```
+
+
