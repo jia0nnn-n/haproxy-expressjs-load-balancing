@@ -7,7 +7,7 @@ const PORT = process.env.PORT
 ```
 
 
-### Transport Layer LB
+## Transport Layer LB
 
 Do two server:
 ```bash
@@ -25,7 +25,7 @@ Play it!
 curl localhost
 ```
 
-### Application Layer LB
+## Application Layer LB
 
 Build two servers for each service.
 ```bash
